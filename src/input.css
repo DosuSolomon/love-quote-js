@@ -18,3 +18,17 @@
     background-attachment: fixed;
   }
 }
+.task{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: orange;
+  gap: 10px;
+  padding: 4px 10px;
+  font-size: 20px;
+}
+.list{
+  flex : 1;
+  list-style-type: none;
+}
+

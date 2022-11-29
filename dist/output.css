@@ -513,12 +513,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
-  display: flex;
+.mt-\[-200px\] {
+  margin-top: -200px;
 }
 
-.h-\[70vh\] {
-  height: 70vh;
+.flex {
+  display: flex;
 }
 
 .h-\[100vh\] {
@@ -527,6 +527,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-\[0\.8\] {
+  flex: 0.8;
+}
+
+.flex-\[0\.3\] {
+  flex: 0.3;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -541,6 +553,14 @@ video {
   justify-content: center;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -553,6 +573,36 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-tl-lg {
+  border-top-left-radius: 0.5rem;
+}
+
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-tr-lg {
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-br-lg {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
 .bg-orange-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 237 213 / var(--tw-bg-opacity));
@@ -561,6 +611,21 @@ video {
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.px-\[300px\] {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-\[20px\] {
@@ -573,11 +638,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -585,6 +645,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .text-2xl {
@@ -606,6 +670,10 @@ video {
   color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 
+.line-through {
+  text-decoration-line: line-through;
+}
+
 .image {
   background-image: url(../image/image.jpg);
   background-repeat: none;
@@ -624,16 +692,19 @@ video {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:p-\[400px\] {
-    padding: 400px;
-  }
+.task{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: orange;
+  gap: 10px;
+  padding: 4px 10px;
+  font-size: 20px;
 }
 
-@media (min-width: 1024px) {
-  .lg\:h-\[70vh\] {
-    height: 70vh;
-  }
+.list{
+  flex : 1;
+  list-style-type: none;
 }
 
 @media (min-width: 1280px) {
@@ -645,3 +716,4 @@ video {
     padding: 400px;
   }
 }
+

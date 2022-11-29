@@ -1,0 +1,3 @@
+Synchromous vs Asynchronous
+Synchromous executuion refers to code executing in sequence.
+

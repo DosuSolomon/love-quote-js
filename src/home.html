@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="h-[100vh] bg-slate-400 flex flex-col justify-center items-center px-[300px] gap-5"
+    >
+      <div class="mt-[-200px] w-full flex flex-row">
+        <input
+          class="border flex-[0.8] py-4 px-4 rounded-tl-lg rounded-bl-lg text-[20px]"
+          id="input-task"
+          placeholder="Enter task"
+          type="text"
+        />
+        <button
+          class="flex justify-center items-center rounded-tr-lg rounded-br-lg text-[20px] font-500 bg-red-200 flex-[0.3]"
+          id="add-task"
+        >
+          Add Task
+        </button>
+      </div>
+      <div id="task-container" class="w-full flex flex-col gap-3 "></div>
+    </div>
+    <script src="./js/project-2.js"></script>
+  </body>
+</html>
