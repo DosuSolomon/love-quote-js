@@ -674,6 +674,10 @@ video {
   text-decoration-line: line-through;
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .image {
   background-image: url(../image/image.jpg);
   background-repeat: none;
